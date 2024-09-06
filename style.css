@@ -1,0 +1,206 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: "Chakra Petch", sans-serif;
+    background-image: url(assets/img/TGW2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    height: 100vh;
+    /* Preenche a altura total da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin-left: 8em;
+}
+
+section {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens na vertical */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem;
+    /* Espaçamento abaixo de cada seção */
+    margin-left: 20em;
+}
+
+section input {
+    width: 30rem;
+    /* Largura dos inputs */
+    border: none;
+    /* Remove a borda padrão */
+    padding: 1rem;
+    /* Espaçamento interno */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos inputs */
+    color: #45474B;
+    /* Cor do texto */
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura total */
+}
+
+section button {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 1.5rem;
+    /* Borda arredondada */
+    background-color: #01010E;
+    color: #F5F7F8;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.resultados-pesquisa {
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    position: absolute;
+    left: 10em;
+    top: 20em;
+}
+
+.item-resultado {
+    border-radius: 0.6rem;
+    /* Borda arredondada */
+    padding: 1rem;
+    /* Espaçamento interno */
+    margin-bottom: 1rem;
+    /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Sombra leve */
+}
+
+.item-resultado h2 {
+    font-size: 1.5rem;
+    /* Tamanho da fonte */
+    color: #FFFFFF;
+    /* Cor do texto */
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #D7913F;
+    /* Cor do texto dos links */
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+    /* Adiciona sublinhado ao passar o mouse */
+}
+
+.descricao-meta {
+    color: #FFFFFF;
+    margin: 0.5rem 0;
+}
+
+footer {
+    opacity: 100%;
+    color: #F5F7F8;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+footer a {
+    margin: 5px;
+}
+
+#Instagram {
+    width: 30px;
+    border-radius: 50px;
+}
+
+#Youtube {
+    width: 30px;
+}
+
+.Fundo {
+    font-family: "Chakra Petch", sans-serif;
+    background-image: url(assets/img/TGWFUNDO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.IMGAMES {
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#Titulo {
+    position: absolute;
+    top: 3em;
+    left: 8em;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #DB5E20;
+
+}
+
+html ::-webkit-scrollbar-track {
+    background: #010111;
+    border-radius: 50px;
+}
+
+
+#buttonpg {
+    position: absolute;
+    top: 17em;
+    left: 60em;
+}
+
+#campo-pesquisa {
+    position: absolute;
+    top: 13em;
+    left: 49em;
+}
+
+img {
+    width:100%;
+    height:auto;
+}
